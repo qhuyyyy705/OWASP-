@@ -1,0 +1,22 @@
+.gray-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:#778495}
+.proxy-state{height:30px;padding:0 10px;border:1px solid #394252;background:#171f2b;border-radius:6px;display:inline-flex;align-items:center;gap:7px;color:#a5b2bf;font-size:10px}
+.proxy-state.is-running{border-color:#28664f;background:#12261f;color:#65dcae}
+.proxy-layout{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(360px,1.15fr);gap:14px}
+.proxy-config,.proxy-help{min-height:280px}
+.proxy-config label{display:block;color:#aeb9c5;font-size:10px;margin:20px 0 13px}
+.proxy-config input,.proxy-config select{display:block;width:100%;height:36px;margin-top:7px;padding:0 10px;border:1px solid #2a3848;border-radius:6px;background:#0d141d;color:#e4ebf2;outline:none}
+.proxy-config input:focus,.proxy-config select:focus{border-color:#45c999}
+.proxy-config input:disabled,.proxy-config select:disabled{opacity:.65}
+.proxy-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.proxy-fields label{margin-top:0}
+.primary-button:disabled{opacity:.48;cursor:not-allowed;box-shadow:none}
+.stop-button,.secondary-button{min-height:34px;padding:0 12px;border:1px solid #7a454a;background:#2b1c22;color:#f2a3a1;border-radius:6px;font-size:11px;font-weight:600}
+.secondary-button{border-color:#2c6c57;background:#13271f;color:#63d9a9}
+.proxy-endpoint{border-top:1px solid #273240;margin-top:17px;padding-top:13px;display:flex;align-items:center;justify-content:space-between;color:#8796a7;font-size:10px}
+.proxy-endpoint code,.proxy-help code{font:10px 'DM Mono',monospace;color:#9fe2c4;background:#13221e;border:1px solid #234638;border-radius:4px;padding:4px 6px}
+.proxy-help ol{margin:23px 0 19px;padding-left:21px;color:#aab6c3;font-size:11px;line-height:1.9}
+.proxy-help li{padding-left:3px;margin-bottom:9px}
+.ca-pending{font-size:10px;color:#8291a2;margin:12px 0}
+.ca-warning{font-size:9px;line-height:1.6;color:#c09b68;margin:13px 0 0}
+.proxy-help .secondary-button{cursor:pointer}
+@media(max-width:1050px){.proxy-layout{grid-template-columns:1fr}}

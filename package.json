@@ -1,0 +1,1 @@
+{"name":"websentinel-desktop","version":"0.1.0","private":true,"main":"desktop/main.cjs","scripts":{"desktop:dev":"concurrently -k \"npm --prefix frontend run dev\" \"wait-on tcp:5173 && node desktop/launch-electron.cjs --dev\"","desktop:start":"node desktop/launch-electron.cjs"},"devDependencies":{"concurrently":"^9.1.0","electron":"^45.4.1","wait-on":"^8.0.1"}}
